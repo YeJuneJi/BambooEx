@@ -1,0 +1,5 @@
+c:\users\yj\documents\visual studio 2010\Projects\Ex\Ex\bin\Debug\Ex.exe
+c:\users\yj\documents\visual studio 2010\Projects\Ex\Ex\bin\Debug\Ex.pdb
+c:\users\yj\documents\visual studio 2010\Projects\Ex\Ex\obj\x86\Debug\Ex.exe
+c:\users\yj\documents\visual studio 2010\Projects\Ex\Ex\obj\x86\Debug\Ex.pdb
+C:\Users\YJ\Documents\Visual Studio 2010\Projects\Ex\Ex\obj\x86\Debug\Ex.csprojResolveAssemblyReference.cache
