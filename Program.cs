@@ -16,6 +16,7 @@ namespace Ex
         {
             int x = 1;
             int y = 2;
+            int w = 0;
             int sum = 0;
             Console.Write("Input >>");
             int inputNum = int.Parse(Console.ReadLine());
@@ -29,7 +30,7 @@ namespace Ex
                 int z = x + y;
                 x = y;
                 y = z;
-
+                
             }
             Console.WriteLine("Output : {0}", sum);
         }
