@@ -32,6 +32,7 @@ namespace Ex
                 
             }
             Console.WriteLine("Output : {0}", sum);
+            Console.WriteLine("Data Check Detected");
         }
     }
 }
