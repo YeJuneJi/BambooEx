@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ex
 {
-    class Program
+    class YejuneEx
     {
         static void Main(string[] args)
         {
@@ -16,7 +16,6 @@ namespace Ex
         {
             int x = 1;
             int y = 2;
-            int w = 0;
             int sum = 0;
             Console.Write("Input >>");
             int inputNum = int.Parse(Console.ReadLine());
