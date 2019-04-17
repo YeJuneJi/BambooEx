@@ -1,0 +1,7 @@
+C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\bin\Debug\TestEx.dll
+C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\bin\Debug\TestEx.pdb
+C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\bin\Debug\Ex.exe
+C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\bin\Debug\Ex.pdb
+C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\obj\Debug\TestEx.csprojResolveAssemblyReference.cache
+C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\obj\Debug\TestEx.dll
+C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\obj\Debug\TestEx.pdb
