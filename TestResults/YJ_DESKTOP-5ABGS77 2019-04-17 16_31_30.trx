@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="facf36e0-fd34-4585-9140-df1fc2eb9aa0" name="YJ@DESKTOP-5ABGS77 2019-04-17 16:31:30" runUser="DESKTOP-5ABGS77\YJ" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="로컬" id="49e18d15-f019-43ea-9883-30e4a0ac0f4f">
+    <Description>로컬 테스트 실행에 대한 기본 테스트 설정입니다.</Description>
+    <Deployment enabled="false" runDeploymentRoot="YJ_DESKTOP-5ABGS77 2019-04-17 16_31_30">
+      <DeploymentItem filename="C:\Users\YJ\Documents\Visual Studio 2010\Projects\Ex\Ex\bin\Debug\Ex.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-04-17T16:31:30.4139928+09:00" queuing="2019-04-17T16:31:30.4220077+09:00" start="2019-04-17T16:31:30.4239665+09:00" finish="2019-04-17T16:31:30.7716445+09:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Sub" storage="c:\users\yj\documents\visual studio 2010\projects\ex\testex\bin\debug\testex.dll" id="5af2d9fb-b03f-01c9-0cc8-35e9b45b5d07">
+      <Execution id="36206658-2a04-4493-8520-60250ba97066" />
+      <TestMethod codeBase="C:/Users/YJ/documents/visual studio 2010/Projects/Ex/TestEx/bin/Debug/TestEx.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEx.YejuneTest, TestEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Sub" />
+    </UnitTest>
+    <UnitTest name="Add" storage="c:\users\yj\documents\visual studio 2010\projects\ex\testex\bin\debug\testex.dll" id="bcac4d2e-ffde-9067-15d2-f9e40babb9db">
+      <Execution id="279ea054-2a1a-4879-8ad1-69353533beb9" />
+      <TestMethod codeBase="C:/Users/YJ/documents/visual studio 2010/Projects/Ex/TestEx/bin/Debug/TestEx.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEx.YejuneTest, TestEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="목록에 없는 결과" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="로드된 모든 결과" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5af2d9fb-b03f-01c9-0cc8-35e9b45b5d07" executionId="36206658-2a04-4493-8520-60250ba97066" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcac4d2e-ffde-9067-15d2-f9e40babb9db" executionId="279ea054-2a1a-4879-8ad1-69353533beb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="36206658-2a04-4493-8520-60250ba97066" testId="5af2d9fb-b03f-01c9-0cc8-35e9b45b5d07" testName="Sub" computerName="DESKTOP-5ABGS77" duration="00:00:00.0088536" startTime="2019-04-17T16:31:30.4279558+09:00" endTime="2019-04-17T16:31:30.6733343+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36206658-2a04-4493-8520-60250ba97066">
+    </UnitTestResult>
+    <UnitTestResult executionId="279ea054-2a1a-4879-8ad1-69353533beb9" testId="bcac4d2e-ffde-9067-15d2-f9e40babb9db" testName="Add" computerName="DESKTOP-5ABGS77" duration="00:00:00.0835868" startTime="2019-04-17T16:31:30.6762914+09:00" endTime="2019-04-17T16:31:30.7616707+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="279ea054-2a1a-4879-8ad1-69353533beb9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail이(가) 실패했습니다. 어설션에 Assert.Equals를 사용할 수 없습니다. 대신 Assert.AreEqual &amp; overloads를 사용하십시오.</Message>
+          <StackTrace>   위치: TestEx.YejuneTest.Add() 파일 C:\Users\YJ\documents\visual studio 2010\Projects\Ex\TestEx\YejuneTest.cs:줄 16
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
