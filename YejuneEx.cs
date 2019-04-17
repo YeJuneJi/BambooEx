@@ -17,8 +17,18 @@ namespace Ex
             int x = 1;
             int y = 2;
             int sum = 0;
-            Console.Write("Input >>");
-            int inputNum = int.Parse(Console.ReadLine());
+            int inputNum = 0;
+            try
+            {
+                Console.Write("Input >>");
+                inputNum = int.Parse(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Exception");
+            }
+            
+            
 
             while (x < inputNum)
             {
