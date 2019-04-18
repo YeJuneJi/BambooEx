@@ -19,6 +19,17 @@ namespace Ex
         {
             return a * b;
         }
+        public int Div(int a, int b)
+        {
+            if(a<b)
+            {
+                int temp = 0;
+                temp = a;
+                a = b;
+                b = a;
+            }
+            return a / b;
+        }
 
     }
 }
