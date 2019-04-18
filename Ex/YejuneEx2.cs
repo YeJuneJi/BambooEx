@@ -15,6 +15,10 @@ namespace Ex
         {
             return a - b;
         }
+        public int Mul(int a, int b)
+        {
+            return a * b;
+        }
 
     }
 }

@@ -23,5 +23,12 @@ namespace TestEx
             Ex.YejuneEx2 ex = new Ex.YejuneEx2();
             Assert.AreEqual(10, ex.Sub(20, 10));
         }
+
+        [TestMethod]
+        public void Mul()
+        {
+            Ex.YejuneEx2 ex = new Ex.YejuneEx2();
+            Assert.Equals(6, ex.Mul(3, 2));
+        }
     }
 }
