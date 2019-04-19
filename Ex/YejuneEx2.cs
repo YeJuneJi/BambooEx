@@ -30,5 +30,6 @@ namespace Ex
             }
             return a / b;
         }
+
     }
 }
