@@ -35,7 +35,8 @@ namespace TestEx
         public void Div()
         {
             Ex.YejuneEx2 ex = new Ex.YejuneEx2();
-            Assert.AreEqual(10, ex.Div(100, 5));
+            Assert.Equals(6, ex.Div(3, 2));
+            Assert.AreEqual(6, ex.Div(3, 2));
         }
     }
 }

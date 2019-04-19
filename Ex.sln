@@ -6,11 +6,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEx", "TestEx\TestEx.csproj", "{9814D75B-BE73-4048-BAB9-421A295625B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB89E3EE-37D7-4AA1-A54D-C2ADC7C5A43C}"
-	ProjectSection(SolutionItems) = preProject
-		Ex.vsmdi = Ex.vsmdi
-		Local.testsettings = Local.testsettings
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
