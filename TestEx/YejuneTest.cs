@@ -13,7 +13,6 @@ namespace TestEx
         public void Add()
         {
             Ex.YejuneEx2 ex = new Ex.YejuneEx2();
-            //Assert.Equals(31, ex.Add(20, 11));
             Assert.AreEqual(31, ex.Add(20, 11));
         }
 
