@@ -28,7 +28,7 @@ namespace TestEx
         public void Mul()
         {
             Ex.YejuneEx2 ex = new Ex.YejuneEx2();
-            Assert.AreEqual(6, ex.Mul(3, 3));
+            Assert.AreEqual(6, ex.Mul(2, 3));
         }
 
         [TestMethod]
